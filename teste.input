@@ -1,0 +1,21 @@
+alpha_1 = 12;
+beta = 3.14;
+gamma = 6.02e+23;
+delta = 1.5E-2;
+equal = alpha_1 == beta;
+less = alpha_1 < beta;
+greater = alpha_1 > beta;
+at_least = alpha_1 >= beta;
+
+if (alpha_1 <= beta) then {
+    alpha_1 = alpha_1 + 1;
+} else {
+    alpha_1 = alpha_1 - 1;
+}
+
+while (alpha_1 != gamma) {
+    alpha_1 = alpha_1 * 2 / 3 % 5;
+}
+
+;
+
